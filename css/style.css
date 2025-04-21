@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    color: lightgreen;
+    width: 100%;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cabecalho{
+    margin-bottom: 20px;
+}
+.cabecalho h2{
+    margin-bottom: 10px;
+}
+.cabecalho form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 4px;
+}
+
+.item_tarefa form input{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+}
+button{
+    padding: 3px;
+    margin: 3px 0px;
+}
+/* Tarefa apagada e fora da tela */
+.apagada{
+    display: none;
+}
+/* Tarefa concluída e sinalizada */
+.concluida span{
+    text-decoration: line-through orange 2px;
+}

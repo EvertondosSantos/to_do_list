@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="cabecalho">
+            <h2>Salve sua próxima tarefa:</h2>
+            <form action="">
+                <input type="text" name="" id="texto_formulario" placeholder="O que você quer fazer?">
+                <button id="btn_salvar" type="submit">Salvar</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </div>
+        <div class="tarefas">
+            <h2>Estas são as suas tarefas:</h2>
+            <ul class="lista_tarefas">
+                <li class="padrao_tarefas apagada item_tarefa ">
+                    <span class="texto_tarefa">TarefaPadrao</span>
+                    <form class="formulario_edicao apagada" action="">
+                        <input class="edicao_tarefa" type="text" name="">
+                        <button class="btn_confirmar" type="submit">Confirmar</button>
+                    </form>
+                    <button class="btn_tarefa concluir">Concluir</button>
+                    <button class="btn_tarefa editar">Editar</button>
+                    <button class="btn_tarefa apagar">Apagar</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
